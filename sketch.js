@@ -24,7 +24,7 @@ function draw() {
   //hours hand
   push();
   rotate(hrAng);
-  stroke(5, 100, 168, 17);
+  stroke(0, 0, 255);
   strokeWeight(7);
   line(0, 0, 70, 0);
   pop();
@@ -32,7 +32,7 @@ function draw() {
   //minutes hand
   push();
   rotate(minAng);
-  stroke(0, 168, 17, 66);
+  stroke(0, 255, 0);
   strokeWeight(7);
   line(0, 0, 90, 0);
   pop();
@@ -40,7 +40,7 @@ function draw() {
   //seconds hand
   push();
   rotate(secAng);
-  stroke(168, 0, 53, 66);
+  stroke(255, 0, 0);
   strokeWeight(7);
   line(0, 0, 110, 0);
   pop();
@@ -49,12 +49,12 @@ function draw() {
   strokeWeight(7);
   noFill();
 
-  stroke(5, 100, 168);
+  stroke(0, 0, 255);
   arc(0, 0, 300, 300, 0, hrAng);
 
-  stroke(0, 168, 17);
+  stroke(0, 255, 0);
   arc(0, 0, 350, 350, 0, minAng);
 
-  stroke(168, 0, 53);
+  stroke(255, 0, 0);
   arc(0, 0, 400, 400, 0, secAng);
 }
